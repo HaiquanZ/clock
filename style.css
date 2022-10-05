@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+}
+.bg_video{
+    /* display: none; */
+    width: 100%;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+.left{
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+}
+.time{
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 30px;
+    margin-bottom: 5vh;
+    width: fit-content;
+}
+.gr1, .gr2{
+    display: flex;
+}
+.time h1{
+    color: white;
+    font-size: 13vh;
+    margin: auto 1rem;
+}
+.mess{
+    display: flex;
+    align-items: center;
+    animation-name: fly;
+    animation-duration: 2s;
+}
+.cat_avt{
+    width: 50px;
+}
+.mess h1{
+    font-size: 5vh;
+    margin-left: 10px;
+    text-align: center;
+    width: fit-content;
+    padding: 5px 20px;
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 10px;
+    color: white;
+}
+@keyframes fly {
+    from{
+        transform: translateY(150%);
+        opacity: 0;
+    }
+}
+

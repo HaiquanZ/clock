@@ -1,0 +1,21 @@
+@media (max-width:739px){
+    .left{
+        left: 10vw;
+    }
+    .time h1{
+        font-size: 3rem;
+    }
+    .mess h1{
+        font-size: 1.5rem;
+    }
+    
+}
+@media (max-width:740px) and (min-width:1023px){
+    .time h1{
+        font-size: 10px;
+        margin: auto 5px;
+    }
+    .mess h1{
+        font-size: 10px;
+    }
+}
