@@ -1,2 +1,2 @@
 # Tiny Project: Clock and bla..bla...
-#  Link: 
+#  Link: [Click here](https://haiquanz.github.io/clock/)
